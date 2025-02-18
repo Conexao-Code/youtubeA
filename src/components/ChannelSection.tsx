@@ -41,7 +41,6 @@ const PerformanceIndicator = ({ performance }: { performance: 'high' | 'medium' 
     </div>
   );
 };
-
 export function ChannelSection({ channel, videos }: ChannelSectionProps) {
   return (
     <div className="mb-12 bg-white rounded-xl shadow-sm border border-gray-100">
